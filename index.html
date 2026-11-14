@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ironvale Gym — Build Your Core</title>
+  <meta name="description" content="A premium training environment designed to build strength, conditioning and lasting habits. Coaching, classes and open gym in Accra." />
+  <meta name="theme-color" content="#0d0d0d" />
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="preload" as="image" href="assets/img/hero.webp" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <main id="top">
+    <!-- ============ HERO ============ -->
+    <section class="hero-wrap">
+      <div class="hero">
+        <img class="hero-img" src="assets/img/hero.webp" alt="Athlete training with battle ropes in a dark gym" width="1536" height="864" />
+        <nav class="nav" id="nav" aria-label="Main">
+          <a href="#top" class="brand">Ironvale Gym</a>
+          <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#facilities">Facilities</a>
+            <a href="#trainers">Trainers</a>
+            <a href="#faq">Contact</a>
+          </div>
+          <button class="red-btn sm" data-join>Join Us <i></i></button>
+          <button class="nav-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+        </nav>
+        <div class="hero-words mono" aria-hidden="true"><span>Build consistency</span><span>Build spirit</span><span>Build habits</span></div>
+        <div class="hero-bottom">
+          <h1 class="hero-title reveal">Build your core<br/>with Ironvale</h1>
+          <div class="hero-right reveal">
+            <p class="mono">Experience a premium training environment meticulously designed to enhance your strength and boost your performance.</p>
+            <button class="red-btn" data-consult>Consult With Our Team <i></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="about section" id="about">
+      <div class="container about-grid">
+        <p class="label mono reveal">About Ironvale</p>
+        <div>
+          <p class="about-lead reveal">Ironvale is a focused training environment designed for people who take their fitness seriously. From strength training to conditioning, every element of the space and experience is built around progress.</p>
+          <div class="members reveal">
+            <span class="faces"><img src="assets/img/av-1.webp" alt="" width="96" height="96" /><img src="assets/img/av-2.webp" alt="" width="96" height="96" /><img src="assets/img/av-3.webp" alt="" width="96" height="96" /><img src="assets/img/av-4.webp" alt="" width="96" height="96" /></span>
+            <span class="mono">More than <b data-count="12">12</b>K members</span>
+          </div>
+          <button class="red-btn reveal" data-scroll="#facilities">About Ironvale Gym <i></i></button>
+        </div>
+      </div>
+      <div class="container">
+        <button class="video reveal" id="play" aria-label="Play the Ironvale film">
+          <img src="assets/img/sled.webp" alt="" width="1536" height="864" loading="lazy" />
+          <span class="play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7Z"/></svg></span>
+          <span class="v-cap mono">Watch · Inside Ironvale · 01:24</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- ============ FACILITIES ============ -->
+    <section class="facilities" id="facilities">
+      <img class="fac-bg" src="assets/img/gym.webp" alt="" width="1536" height="864" loading="lazy" />
+      <div class="container fac-inner">
+        <p class="mono fac-tag reveal">Focused. Natural. And intentional.</p>
+        <dl class="specs mono reveal">
+          <div><dt>Opening hours</dt><dd id="hours-row">05:00 AM – 22:00 PM</dd></div>
+          <div><dt>Facilities</dt><dd>One-to-one coaching with a dedicated coach</dd></div>
+          <div><dt>Rooms</dt><dd>14 rooms of training space</dd></div>
+          <div><dt>Trainers</dt><dd>14 certified professional trainers</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ============ PROGRAMS ============ -->
+    <section class="programs section">
+      <div class="container">
+        <div class="sec-head">
+          <p class="label mono reveal">Membership</p>
+          <h2 class="h2 reveal">Choose how you train.</h2>
+          <div class="billing reveal" role="tablist" aria-label="Billing period"><button class="is-active" data-bill="month">Monthly</button><button data-bill="year">Yearly <em>−15%</em></button></div>
+        </div>
+        <div class="plans">
+          <article class="plan reveal">
+            <p class="mono">Open Gym</p>
+            <div class="price"><b data-price="250">₵250</b><span data-per>/ month</span></div>
+            <ul><li>Full gym floor access</li><li>Locker &amp; showers</li><li>Intro session with a coach</li></ul>
+            <button class="line-btn" data-join data-plan="Open Gym">Choose plan</button>
+          </article>
+          <article class="plan featured reveal">
+            <p class="mono">Performance <span class="pop">Most popular</span></p>
+            <div class="price"><b data-price="450">₵450</b><span data-per>/ month</span></div>
+            <ul><li>Everything in Open Gym</li><li>Unlimited group classes</li><li>Monthly progress check-in</li></ul>
+            <button class="red-btn" data-join data-plan="Performance">Choose plan <i></i></button>
+          </article>
+          <article class="plan reveal">
+            <p class="mono">Coached 1:1</p>
+            <div class="price"><b data-price="1200">₵1,200</b><span data-per>/ month</span></div>
+            <ul><li>Everything in Performance</li><li>8 personal training sessions</li><li>Nutrition plan</li></ul>
+            <button class="line-btn" data-join data-plan="Coached 1:1">Choose plan</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ GALLERY ============ -->
+    <section class="gallery section">
+      <div class="container">
+        <div class="center-head">
+          <p class="label mono reveal">Our gallery</p>
+          <h2 class="h2 reveal">Inside the Ironvale community</h2>
+          <p class="mono sub reveal">Experience the energy, discipline and movement that define our community, from everyday training to moments of breakthrough.</p>
+        </div>
+        <div class="g-grid">
+          <figure class="g reveal" data-light="0"><img src="assets/img/g-kettle.webp" alt="Athlete holding a kettlebell overhead" width="667" height="1000" loading="lazy" /><figcaption class="mono">Raw moments, relentless training, and the pursuit of becoming stronger with every rep.</figcaption></figure>
+          <figure class="g wide reveal" data-light="1"><img src="assets/img/g-sprint.webp" alt="Sprinter in an explosive running stance" width="800" height="600" loading="lazy" /><figcaption class="mono">Every session is a test of strength, discipline, and the will to keep moving forward.</figcaption></figure>
+          <figure class="g reveal" data-light="2"><img src="assets/img/g-run.webp" alt="Athlete running on a treadmill" width="667" height="1000" loading="lazy" /><figcaption class="mono">No shortcuts. No distractions. Just movement, intensity, and the commitment to get better.</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TRAINERS ============ -->
+    <section class="trainers" id="trainers">
+      <div class="center-head">
+        <p class="label mono reveal">Our trainers</p>
+        <h2 class="h2 light reveal">The people behind<br/>the progress</h2>
+        <p class="mono sub reveal">Train with experienced coaches who understand that progress is personal.</p>
+      </div>
+      <div class="t-track" id="t-track">
+        <article class="trainer"><img src="assets/img/t-1.webp" alt="Coach Kwabena Asare" width="800" height="1000" loading="lazy" /><div><strong>Kwabena Asare</strong><span class="mono">Head coach · Strength</span></div><button class="t-book" data-consult data-coach="Kwabena Asare">Book</button></article>
+        <article class="trainer"><img src="assets/img/t-2.webp" alt="Coach Adwoa Nyarko" width="800" height="1000" loading="lazy" /><div><strong>Adwoa Nyarko</strong><span class="mono">Coach · Conditioning</span></div><button class="t-book" data-consult data-coach="Adwoa Nyarko">Book</button></article>
+        <article class="trainer"><img src="assets/img/t-3.webp" alt="Coach Selorm Agbeko" width="800" height="1000" loading="lazy" /><div><strong>Selorm Agbeko</strong><span class="mono">Coach · Transformation</span></div><button class="t-book" data-consult data-coach="Selorm Agbeko">Book</button></article>
+        <article class="trainer"><img src="assets/img/t-4.webp" alt="Coach Emmanuel Boateng" width="800" height="1000" loading="lazy" /><div><strong>Emmanuel Boateng</strong><span class="mono">Director of coaching</span></div><button class="t-book" data-consult data-coach="Emmanuel Boateng">Book</button></article>
+      </div>
+      <div class="t-ctrl"><button id="t-prev" aria-label="Previous trainer">←</button><span class="t-dots" id="t-dots"></span><button id="t-next" aria-label="Next trainer">→</button></div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="faq section" id="faq">
+      <div class="container">
+        <div class="faq-head">
+          <div><p class="label mono reveal">FAQ</p><h2 class="h2 reveal">Everything you need to know before getting started.</h2></div>
+          <p class="mono sub reveal">Starting your fitness journey should feel simple. Find answers about memberships, facilities, personal training, and what to expect at Ironvale Gym.</p>
+        </div>
+        <div class="faq-grid">
+          <div class="acc reveal" id="acc">
+            <details><summary>Is Ironvale Gym suitable for beginners?</summary><p class="mono">Yes. Every new member gets an intro session with a coach who builds a plan around your level, goals and schedule.</p></details>
+            <details open><summary>Can I try the gym before becoming a member?</summary><p class="mono">Yes, we offer trial options so you can experience our facilities, atmosphere and training environment before choosing a membership. Book a free trial below.</p></details>
+            <details><summary>What is included in a membership?</summary><p class="mono">All plans include gym floor access, lockers and showers. Higher plans add unlimited classes, progress check-ins, personal training and nutrition support.</p></details>
+            <details><summary>Do you offer personal training?</summary><p class="mono">Yes. Choose a coach from our team and book one-off sessions or a monthly 1:1 package.</p></details>
+            <details><summary>How do I choose the right training program?</summary><p class="mono">Book a free consultation. A coach will assess your goals and recommend the program and plan that fits you best.</p></details>
+            <button class="red-btn" data-trial>Book a free trial <i></i></button>
+          </div>
+          <div class="faq-imgs reveal">
+            <img class="fi-small" src="assets/img/hero.webp" alt="" width="1536" height="864" loading="lazy" />
+            <img class="fi-big" src="assets/img/jump.webp" alt="Athlete doing a box jump" width="800" height="1000" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="foot-card">
+      <div class="foot-top">
+        <div>
+          <h2>Built for strength.</h2>
+          <p class="mono">Ironvale brings together purposeful training, expert coaching, and a space designed to help you become stronger every day.</p>
+          <form class="news" id="news"><input type="email" placeholder="Your email for training tips" aria-label="Email" required /><button class="red-btn sm">Subscribe <i></i></button></form>
+        </div>
+        <div class="f-col mono"><h4>Train</h4><a href="#facilities">Training</a><button data-consult>Personal training</button><a href="#facilities">Group training</a></div>
+        <div class="f-col mono"><h4>Ironvale</h4><a href="#about">About</a><a href="#trainers">Trainers</a><button data-join>Membership</button></div>
+        <div class="f-col mono"><h4>Visit</h4><span>12 Liberation Road, Accra</span><a href="tel:+233302000000">+233 30 200 0000</a><a href="mailto:hello@ironvale.gym">hello@ironvale.gym</a></div>
+      </div>
+      <p class="huge" aria-hidden="true">IRONVALE</p>
+      <div class="foot-bottom mono"><span>© <span data-year>2026</span> Ironvale Gym</span><span id="open-state"></span></div>
+    </div>
+  </footer>
+
+  <!-- ============ MODALS ============ -->
+  <div class="overlay" id="overlay" hidden><div class="modal" role="dialog" aria-modal="true" aria-labelledby="m-title"><button class="m-close" aria-label="Close">×</button><div id="m-body"></div></div></div>
+  <div class="lightbox" id="lightbox" hidden><button class="lb-close" aria-label="Close">×</button><button class="lb-nav prev" aria-label="Previous">←</button><figure><img id="lb-img" alt="" /><figcaption class="mono" id="lb-cap"></figcaption></figure><button class="lb-nav next" aria-label="Next">→</button></div>
+  <div class="toast mono" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
